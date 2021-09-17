@@ -30,7 +30,7 @@ url: "lukewelborn.com" # the base hostname & protocol for your site, e.g. http:/
 github_username:  PlayitLOUD73
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
