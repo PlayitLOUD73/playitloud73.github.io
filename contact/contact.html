@@ -7,11 +7,30 @@
     </head>
     <body>
         <header-component></header-component>
-        <div class="foreground">
+        <div class="foreground">        
             <h1>Contact</h1>
-            <p>This is page is under construction.</p>
+            <!-- modify this form HTML and place wherever you want your form -->
+            <form
+                action="https://formspree.io/f/xayazebk"
+                method="POST"
+            >
+                <label>
+                    Name<br>
+                    <input type="text" name="name" required><br><br>
+                </label>
+            
+                <label>
+                    Email<br>
+                    <input type="email" name="_replyto" required><br><br>
+                </label>
+                <label>
+                    Message<br>
+                    <textarea name="message" required></textarea><br><br>
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit">Submit</button><br><br>
+            </form>
         </div>
-
     </body>
 
 </html>
