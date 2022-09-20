@@ -6,14 +6,50 @@
         <script src="header.js" type="text/javascript" defer></script>  
     </head>
     <body>
-        <header-component></header-component>
+        <!-- <header-component></header-component> -->
 
 
         <div class="foreground">
             <h1>Luke Welborn</h1>
             <h2>About Me</h2>
-            <p>I am a Computer Science student at Clemson University.</p>
-            <h2>This website is currently under construction, and it will be a place to showcase my projects.</h2>
+            <p>I am a Computer Science student at Clemson University. I will be graduating in May of 2023.</p>
+        </div>
+        <div class="foreground">
+            <h1>Projects</h1>
+            <h3>Hackman</h3>
+            <p>Hackman is a hangman game written in Go and Raylib. The game connects to an API to retrieve a random word for the player to guess.
+                <br><a href="https://github.com/PlayitLOUD73/hackman">Access the source code here</a>
+            </p>
+            <h3>Chat Server</h3>
+            <p>Chat Server is an open ended project for a network systems class. Multiple chat clients can connect to the chat server using multithreading. Messages sent from a client appear on other client machines. A GUI was created using GTK.
+                <br><a href="https://github.com/PlayitLOUD73/cpsc3600ChatProject">Access the source code here</a>
+            </p>
+            <p>Github: 
+                <a href="https://github.com/PlayitLOUD73">PlayitLOUD73</a>
+            </p>
+        </div>
+        <div class="foreground">        
+            <h1>Contact</h1>
+            <!-- Formspree Form -->
+            <form
+                action="https://formspree.io/f/xayazebk"
+                method="POST"
+            >
+                <label>
+                    Name<br>
+                    <input type="text" name="name" required><br><br>
+                </label>
+            
+                <label>
+                    Email<br>
+                    <input type="email" name="_replyto" required><br><br>
+                </label>
+                <label>
+                    Message<br>
+                    <textarea name="message" required></textarea><br><br>
+                </label>
+                <button type="submit">Submit</button><br><br>
+            </form>
         </div>
     </body>
 </html>
